@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@auth-demo/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@auth-demo/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@auth-demo/auth": ["libs/auth/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
